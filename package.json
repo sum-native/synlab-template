@@ -1,0 +1,23 @@
+{
+  "name": <foldername>,
+  "version": "2.0.6",
+  "description": "Synthetics Lab",
+  "main": "index.js",
+  "scripts": {
+    "update": "rm -f package-lock.json && rm -rf node_modules && npm install -S @console/synlab@latest && echo You are all good to go!",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js -r"
+  },
+  "repository": {
+    "type": "git",
+    "url": <git@github.ibm.com:your repo here>
+  },
+  "keywords": [
+    "synlab",
+    "synthetics"
+  ],
+  "author": "",
+  "dependencies": {
+    "@console/synlab": "^2.3.1"
+  }
+}

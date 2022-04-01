@@ -1,0 +1,6 @@
+{
+  "defaults": {
+    "repeat": "1m",
+    "timeout": "30s"
+  }
+}
